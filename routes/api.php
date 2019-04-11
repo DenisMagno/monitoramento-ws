@@ -14,7 +14,7 @@ use Illuminate\Http\Request;
 */
 
 Route::get('/', function () {
-    return response()->json(['message' => 'Monitoramento API', 'status' => 'Connected']);
+    return response()->json(['message' => 'Monitoramento API', 'status' => 'Conectado']);
 });
 
 Route::get('/responsaveis/{id}', "ResponsavelController@show");
